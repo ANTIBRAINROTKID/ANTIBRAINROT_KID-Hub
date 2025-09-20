@@ -1,41 +1,659 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "⚡ANTIBRAINROT_KID HUB⚡",
+   Icon = 74316715503333,
+   LoadingTitle = "Eat Burgers Every Day",
+   LoadingSubtitle = "by ANTIBRAINROT_KID TEAM",
+   ShowText = "Rayfield",
+   Theme = "Default",
+   ToggleUIKeybind = "K",
+ 
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+ 
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Free Robux Download"
+   },
+ 
+   KeySystem = true,
+   KeySettings = {
+      Title = "Key",
+      Subtitle = "Key System",
+      Note = "Note: get a free key at discord.gg/FurMVU3cPc",
+      FileName = "Key",
+      SaveKey = false,
+      GrabKeyFromSite = false,
+      Key = {"SuperProSigmaKey1337"}
+   }
+})
+ 
+Rayfield:Notify({
+   Title = "Hello!👋",
+   Content = "Thanks for using my script!",
+   Duration = 6.5,
+   Image = 4483362458,
+})
+ 
+local Tab = Window:CreateTab("Welcome", 114752440737598)
+ 
+local Section = Tab:CreateSection("Main")
+ 
+local Label = Tab:CreateLabel("Welcome, user!👋")
+ 
+local Label = Tab:CreateLabel("Thanks for using my super pro sigma script hub!")
+ 
+local Section = Tab:CreateSection("Player")
+ 
+local Slider = Tab:CreateSlider({
+   Name = "WalkSpeed",
+   Range = {0, 250},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 16,
+   Flag = "Slider1",
+   Callback = function(v)
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+   end,
+})
+ 
+local Slider = Tab:CreateSlider({
+   Name = "JumpPower",
+   Range = {0, 250},
+   Increment = 1,
+   Suffix = "JumpPower",
+   CurrentValue = 10,
+   Flag = "Slider1",
+   Callback = function(v)
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Destroy Gui",
+   Callback = function()
+   Rayfield:Destroy()
+   end,
+})
+ 
+local Tab = Window:CreateTab("Main Scripts", 81350094787676)
+ 
+local Section = Tab:CreateSection("List of the main scripts")
+ 
+local Button = Tab:CreateButton({
+   Name = "Infinity Yield",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "System Broken",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Invisible FE",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Free R15 Animation Packs",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Reimagined/refs/heads/main/FE%20Animation%20editor'))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Chat Bypasser",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "LALOL Hub (free backdoor)",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Obunga-666/Lalol-hub-without-hint/refs/heads/main/Lalol%20hub%20without%20hint"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Fly Gui V3",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Fake Lag",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Biem6ondo/FAKELAG/refs/heads/main/Fakelag"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "AquaMatrix",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Black Hole FE",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/wBsi24w3'))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Multi Tools",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/MultiToolsV1/main/script"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "RemoteSpy",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Dex",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Keyless-mobile-dex-17888"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Control NPC",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/fe-source/refs/heads/main/NPC/source/main.Luau"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Free R15 Emotes",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Emote-Script-but-Fast-47944"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "CatBypasser",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/shadow62x/catbypass/main/upfix"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Fling All",
+   Callback = function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/7dfcTWN1'),true))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Unnamed ESP",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua',true))()
+   end,
+})
+ 
+local Tab = Window:CreateTab("Other Hubs", 117162535634848)
+ 
+local Section = Tab:CreateSection("List of the hubs")
+ 
+local Button = Tab:CreateButton({
+   Name = "XVC Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Piw5bqGq"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Wisl Universal Project",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/wisl884/wisl-i-Universal-Project1/main/Wisl'i%20Universal%20Project.lua", true))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Ph4smo Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/phasmoblade/ph4smo.club/refs/heads/main/universal-hub.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Hat Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/hat-scripts/refs/heads/main/updatedhathub.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Orca Hub",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Solara Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/SH.lua'))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Skibidi Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/aemos2/Skibidihub/refs/heads/main/SkibidiHUB.txt"))()
+   end,
+})
+ 
+local Tab = Window:CreateTab("Game Scripts", 76651514482535)
+ 
+local Section = Tab:CreateSection("List of the game scripts")
+ 
+local Button = Tab:CreateButton({
+   Name = "Chilli Hub Steal A Brainrot",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Xhub Murder Mystery 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Project Auto V6 Jailbreak autofarm",
+   Callback = function()
+   loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV6'))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Vertex Murder Mystery 2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "VoidWare 99 Nights In The Forest",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/Nc0I6kCd/raw", true))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Ringta Ink Game",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "BrookHaven Audio Player",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nmalka01/nmalka01/refs/heads/main/Brookhaven_audio"))()
+   end,
+})
+ 
+local Tab = Window:CreateTab("My Friend Exclusive", 109646726812091)
+ 
+local Section = Tab:CreateSection("That made by my friend yeaaaa")
+ 
+local Button = Tab:CreateButton({
+   Name = "Hitler's Ziga R15",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/Xe84a99g"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Condo Emotes R15",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/VR08JLdY"))()
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "ANTIBRAINROT_KID TEAM GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/qx7loyDZ/raw"))() 
+   end,
+})
+ 
+local Tab = Window:CreateTab("Genisis FE Scripts", 4483362458)
+ 
+local Section = Tab:CreateSection("Genesis FE scripts")
+ 
+local Label = Tab:CreateLabel("You can get it in github: github.com/GenesisFE/Genesis/tree/main/Loadstrings", Color3.fromRGB(255, 255, 255), false)
+ 
+local Label = Tab:CreateLabel("Genesis FE discord: discord.gg/aEZpBEHgMT", Color3.fromRGB(255, 255, 255), false)
+ 
+local Tab = Window:CreateTab("Themes", 111758743153119)
+ 
+local Section = Tab:CreateSection("There is are the rayfield UI themes")
+ 
+local Button = Tab:CreateButton({
+   Name = "Default",
+   Callback = function()
+   Window.ModifyTheme('Default')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Amber Glow",
+   Callback = function()
+   Window.ModifyTheme('AmberGlow')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Amethyst",
+   Callback = function()
+   Window.ModifyTheme('Amethyst')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Bloom",
+   Callback = function()
+   Window.ModifyTheme('Bloom')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Dark Blue",
+   Callback = function()
+   Window.ModifyTheme('DarkBlue')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Green",
+   Callback = function()
+   Window.ModifyTheme('Green')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Light",
+   Callback = function()
+   Window.ModifyTheme('Light')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Ocean",
+   Callback = function()
+   Window.ModifyTheme('Ocean')
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Serenity",
+   Callback = function()
+   Window.ModifyTheme('Serenity')
+   end,
+})
+ 
+local Section = Tab:CreateSection("My custom themes :)")
+ 
+local Button = Tab:CreateButton({
+   Name = "Red Custom Theme",
+   Callback = function()
+   Window.ModifyTheme{
+    TextColor = Color3.fromRGB(255, 255, 255),
+ 
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(0, 0, 0),
+    Shadow = Color3.fromRGB(0, 0, 0),
+ 
+    NotificationBackground = Color3.fromRGB(100, 0, 0),
+    NotificationActionsBackground = Color3.fromRGB(255, 0, 0),
+ 
+    TabBackground = Color3.fromRGB(0, 0, 0),
+    TabStroke = Color3.fromRGB(255, 0, 0),
+    TabBackgroundSelected = Color3.fromRGB(25, 25, 25),
+    TabTextColor = Color3.fromRGB(255, 0, 0),
+    SelectedTabTextColor = Color3.fromRGB(150, 0, 0),
+ 
+    ElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementBackgroundHover = Color3.fromRGB(70, 0, 0),
+    SecondaryElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementStroke = Color3.fromRGB(255, 0, 0),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+            
+    SliderBackground = Color3.fromRGB(0, 0, 0),
+    SliderProgress = Color3.fromRGB(100, 0, 0),
+    SliderStroke = Color3.fromRGB(255, 0, 0),
+ 
+    ToggleBackground = Color3.fromRGB(30, 30, 30),
+    ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+ 
+    DropdownSelected = Color3.fromRGB(40, 40, 40),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+ 
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(65, 65, 65),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+}
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Green Custom Theme",
+   Callback = function()
+   Window.ModifyTheme{
+    TextColor = Color3.fromRGB(255, 255, 255),
+ 
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(0, 0, 0),
+    Shadow = Color3.fromRGB(0, 0, 0),
+ 
+    NotificationBackground = Color3.fromRGB(0, 100, 0),
+    NotificationActionsBackground = Color3.fromRGB(0, 255, 0),
+ 
+    TabBackground = Color3.fromRGB(0, 0, 0),
+    TabStroke = Color3.fromRGB(0, 255, 0),
+    TabBackgroundSelected = Color3.fromRGB(25, 25, 25),
+    TabTextColor = Color3.fromRGB(0, 255, 0),
+    SelectedTabTextColor = Color3.fromRGB(0, 150, 0),
+ 
+    ElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementBackgroundHover = Color3.fromRGB(0, 70, 0),
+    SecondaryElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementStroke = Color3.fromRGB(0, 255, 0),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+            
+    SliderBackground = Color3.fromRGB(0, 0, 0),
+    SliderProgress = Color3.fromRGB(0, 100, 0),
+    SliderStroke = Color3.fromRGB(0, 255, 0),
+ 
+    ToggleBackground = Color3.fromRGB(30, 30, 30),
+    ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+ 
+    DropdownSelected = Color3.fromRGB(40, 40, 40),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+ 
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(65, 65, 65),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+}
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Blue Custom Theme",
+   Callback = function()
+   Window.ModifyTheme{
+    TextColor = Color3.fromRGB(255, 255, 255),
+ 
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(0, 0, 0),
+    Shadow = Color3.fromRGB(0, 0, 0),
+ 
+    NotificationBackground = Color3.fromRGB(0, 0, 100),
+    NotificationActionsBackground = Color3.fromRGB(0, 0, 255),
+ 
+    TabBackground = Color3.fromRGB(0, 0, 0),
+    TabStroke = Color3.fromRGB(0, 0, 255),
+    TabBackgroundSelected = Color3.fromRGB(25, 25, 25),
+    TabTextColor = Color3.fromRGB(0, 0, 255),
+    SelectedTabTextColor = Color3.fromRGB(0, 0, 150),
+ 
+    ElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementBackgroundHover = Color3.fromRGB(0, 0, 70),
+    SecondaryElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementStroke = Color3.fromRGB(0, 0, 255),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+            
+    SliderBackground = Color3.fromRGB(0, 0, 0),
+    SliderProgress = Color3.fromRGB(0, 0, 100),
+    SliderStroke = Color3.fromRGB(0, 0, 255),
+ 
+    ToggleBackground = Color3.fromRGB(30, 30, 30),
+    ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+ 
+    DropdownSelected = Color3.fromRGB(40, 40, 40),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+ 
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(65, 65, 65),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+}
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Yellow Custom Theme",
+   Callback = function()
+   Window.ModifyTheme{
+    TextColor = Color3.fromRGB(255, 255, 255),
+ 
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(0, 0, 0),
+    Shadow = Color3.fromRGB(0, 0, 0),
+ 
+    NotificationBackground = Color3.fromRGB(100, 100, 0),
+    NotificationActionsBackground = Color3.fromRGB(255, 255, 0),
+ 
+    TabBackground = Color3.fromRGB(0, 0, 0),
+    TabStroke = Color3.fromRGB(255, 255, 0),
+    TabBackgroundSelected = Color3.fromRGB(25, 25, 25),
+    TabTextColor = Color3.fromRGB(255, 255, 0),
+    SelectedTabTextColor = Color3.fromRGB(150, 150, 0),
+ 
+    ElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementBackgroundHover = Color3.fromRGB(70, 70, 0),
+    SecondaryElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementStroke = Color3.fromRGB(255, 255, 0),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+            
+    SliderBackground = Color3.fromRGB(0, 0, 0),
+    SliderProgress = Color3.fromRGB(100, 100, 0),
+    SliderStroke = Color3.fromRGB(255, 255, 0),
+ 
+    ToggleBackground = Color3.fromRGB(30, 30, 30),
+    ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+ 
+    DropdownSelected = Color3.fromRGB(40, 40, 40),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+ 
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(65, 65, 65),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+}
+   end,
+})
+ 
+local Button = Tab:CreateButton({
+   Name = "Pink Custom Theme",
+   Callback = function()
+   Window.ModifyTheme{
+    TextColor = Color3.fromRGB(255, 255, 255),
+ 
+    Background = Color3.fromRGB(0, 0, 0),
+    Topbar = Color3.fromRGB(0, 0, 0),
+    Shadow = Color3.fromRGB(0, 0, 0),
+ 
+    NotificationBackground = Color3.fromRGB(1000, 0, 100),
+    NotificationActionsBackground = Color3.fromRGB(255, 0, 255),
+ 
+    TabBackground = Color3.fromRGB(0, 0, 0),
+    TabStroke = Color3.fromRGB(255, 0, 255),
+    TabBackgroundSelected = Color3.fromRGB(25, 25, 25),
+    TabTextColor = Color3.fromRGB(255, 0, 255),
+    SelectedTabTextColor = Color3.fromRGB(150, 0, 150),
+ 
+    ElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementBackgroundHover = Color3.fromRGB(70, 0, 70),
+    SecondaryElementBackground = Color3.fromRGB(0, 0, 0),
+    ElementStroke = Color3.fromRGB(255, 0, 255),
+    SecondaryElementStroke = Color3.fromRGB(40, 40, 40),
+            
+    SliderBackground = Color3.fromRGB(0, 0, 0),
+    SliderProgress = Color3.fromRGB(100, 0, 100),
+    SliderStroke = Color3.fromRGB(255, 0, 255),
+ 
+    ToggleBackground = Color3.fromRGB(30, 30, 30),
+    ToggleEnabled = Color3.fromRGB(0, 146, 214),
+    ToggleDisabled = Color3.fromRGB(100, 100, 100),
+    ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+    ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
+    ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
+    ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+ 
+    DropdownSelected = Color3.fromRGB(40, 40, 40),
+    DropdownUnselected = Color3.fromRGB(30, 30, 30),
+ 
+    InputBackground = Color3.fromRGB(30, 30, 30),
+    InputStroke = Color3.fromRGB(65, 65, 65),
+    PlaceholderColor = Color3.fromRGB(178, 178, 178)
+}
+   end,
+})
+ 
